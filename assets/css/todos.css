@@ -1,0 +1,77 @@
+#container {
+  border: 2px solid gray;
+  width: 360px;
+  margin: 100px auto;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  font-size: 18px;
+  background-color: #f7f7f7;
+  color: #F05F11;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+}
+
+span {
+  margin-right: 20px;
+  text-align: center;
+  width: 0;
+  height: 40px;
+  display: inline-block;
+}
+
+li:hover span {
+  width: 40px;
+}
+
+input:focus {
+  background: #fff;
+  border: 3px solid #F05F11;
+  outline: none;
+}
+
+.selected {
+  text-decoration: line-through;
+  color: gray;
+}
+
+h1 {
+  background: #F05F11;
+  color: white;
+  margin: 0;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+  background: #fc4a1a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7b733, #fc4a1a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+li {
+  background: #fff;
+  height: 40px;
+  line-height: 40px;
+  color: #666;
+}
+
+li:nth-child(2n) {
+  background: #f7f7f7;
+}
